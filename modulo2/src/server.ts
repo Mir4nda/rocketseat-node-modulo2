@@ -5,8 +5,8 @@ const app = express();
 
 app.use(
   cors({
-    origin: ["*", "http://127.0.0.1:3333", "http://localhost:333"],
-    allowedHeaders: ["*", "http://127.0.0.1:3333", "http://localhost:333"],
+    origin: ["*", "http://127.0.0.1:3333", "http://localhost:3333"],
+    allowedHeaders: ["*", "http://127.0.0.1:3333", "http://localhost:3333"],
   })
 );
 
